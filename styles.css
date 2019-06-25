@@ -14,14 +14,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 .box{
     display: flex;
     flex-direction: column;
-    padding: 1.875em 1.5em;
+    padding: 5em 1.5em 1.875em 1.5em;
     background: #ECECEC;
-    min-width: 90%;
+    width: 90%;
+    position: relative;
+    z-index: 2;
 }
 
 .box > *{
@@ -68,4 +72,49 @@ form > button{
     text-decoration: none;
     margin-top: 1.2em;
     font-size: 1.125em;
+}
+
+.wrapper{
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: -3.5em;
+}
+
+.icon{
+    box-sizing: content-box;
+    padding: 2em;
+    border-radius: 50%;
+    background-color: #FFD200;
+}
+
+.icon::before{
+    content:'';
+    width: 11.6em;
+    height: 11.6em;
+    background: url('img/shadow.svg');
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    z-index: -1;
+}
+
+.icon > img{
+    width: 40px;
+    height: 40px;
+}
+
+
+/* MEDIA QUERIES ////////////////////*/
+
+@media (min-width: 769px){
+    .box{
+        width: 70%;
+    }
+}
+
+@media(min-width: 1000px){
+    .box{
+        width: 30%;
+    }
 }
