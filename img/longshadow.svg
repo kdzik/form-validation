@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 626 747">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1.25" y1="1.027" x2="-0.25" y2="-0.027" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#020202" stop-opacity="0"/>
+      <stop offset="1" stop-color="#070505"/>
+    </linearGradient>
+  </defs>
+  <g id="long_shadow" data-name="long shadow" class="cls-1" transform="translate(-310 -910)">
+    <path id="long_shadow-2" data-name="long shadow" class="cls-2" d="M932,1637l-322,20a3.973,3.973,0,0,1-3-1.379v.38L312.783,1359.791A3.987,3.987,0,0,1,310,1356V914a4,4,0,0,1,4-4H636a3.987,3.987,0,0,1,3.8,2.8l293.422,294.408A3.987,3.987,0,0,1,936,1211v422A4,4,0,0,1,932,1637Z"/>
+    <path id="long_shadow-3" data-name="long shadow" class="cls-3" d="M932,1637l-322,20a3.973,3.973,0,0,1-3-1.379v.38L312.783,1359.791A3.987,3.987,0,0,1,310,1356V914a4,4,0,0,1,4-4H636a3.987,3.987,0,0,1,3.8,2.8l293.422,294.408A3.987,3.987,0,0,1,936,1211v422A4,4,0,0,1,932,1637Z"/>
+  </g>
+</svg>
