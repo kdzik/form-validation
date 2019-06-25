@@ -3,3 +3,69 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: arial;
+}
+
+.container{
+    background-color: #01CEB8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 1.875em 1.5em;
+    background: #ECECEC;
+    min-width: 90%;
+}
+
+.box > *{
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 1.875em;
+    font-weight: 400;
+}
+
+.box > form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form > *{
+   margin-top: 1.25em;
+   width: 100%;
+   font-size: 1em;
+   font-weight: 600;
+}
+
+form > input{
+    background-color: #D3D3D3;
+    border: 0;
+    border-radius: 0.3125em;
+    padding: 1em;
+    color: #333333;
+}
+
+form > button{
+    background: #4591FB;
+    border: 0;
+    border-radius: 0.3125em;
+    color: #ECECEC;
+    font-size: 1.25em;
+    padding: 0.75em;
+}
+
+#member-login{
+    color: #F5683D;
+    text-decoration: none;
+    margin-top: 1.2em;
+    font-size: 1.125em;
+}
