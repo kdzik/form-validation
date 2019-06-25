@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Shape_2" data-name="Shape 2" class="cls-1" d="M462.086,912.218l8.7,8.7L456,927Zm1.518-2.254,16.835-16.835,9.432,9.431-16.836,16.834Zm18.722-18.721L486.569,887,496,896.432l-4.243,4.242Z" transform="translate(-456 -887)"/>
+</svg>
