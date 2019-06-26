@@ -2,6 +2,8 @@
     <head>
         <title>Form authentication</title>
         <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
     <body>
         <div class="container">
@@ -14,12 +16,18 @@
                 <h1>Register</h1>
                 <form>
                     <input type="text" name="username" id="username" placeholder="Username">
+                    <span class="info"><i class="fa fa-info-circle"></i> more than 4 characters</span>
+                    <label for="username"></label>
                     <input type="password" id="password" name="password" placeholder="Password">
+                    <span class="info"><i class="fa fa-info-circle"></i> more than 8 characters, must contain at least: 1 number, 1 small character, 1 big character</span>
+                    <label for="password"></label>
                     <input type="password" id="confirm_password" name="confirm_passowrd" placeholder="Confirm password">
+                    <label for="confirm_passowrd"></label>
                     <button type="submit">REGISTER</button>
                 </form>
                 <a id="member-login" href="#">Member login</a>
             </div>
         </div>
+        <script src="js/script.js"></script>
     </body>
 </html>
