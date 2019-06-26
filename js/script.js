@@ -112,9 +112,11 @@ function showPassword(input, event) {
     if (input.type === "text") {
         input.type = "password";
         input.nextElementSibling.childNodes[0].className = "fa fa-eye";
+        input.nextElementSibling.style.background = "#D3D3D3";
     }
     else if (input.type === "password") {
         input.type = "text";
         input.nextElementSibling.childNodes[0].className = "fa fa-eye-slash";
+        input.nextElementSibling.style.background = "#C1C1C1";
     }
 }
