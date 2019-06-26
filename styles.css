@@ -152,6 +152,7 @@ form > button[type=submit]{
 
 .info{
     font-size: 0.75em;
+    font-weight: 600;
     margin: 0;
     padding: 0;
     color: #5D5D5D;
@@ -177,14 +178,8 @@ form > button[type=submit]{
 
 /* MEDIA QUERIES ////////////////////*/
 
-@media (min-width: 769px){
+@media(min-width: 600px){
     .box{
-        width: 70%;
-    }
-}
-
-@media(min-width: 1000px){
-    .box{
-        width: 30%;
+        max-width: 400px;
     }
 }
