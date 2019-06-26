@@ -81,10 +81,10 @@ form input{
 form > button[type=submit]{
     background: #4591FB;
     border: 0;
-    border-radius: 0.3125em;
+    border-radius: .3125em;
     color: #ECECEC;
     font-size: 1.25em;
-    padding: 0.75em;
+    padding: .75em;
     margin-top: 1.25em;
     cursor: pointer;
 }
@@ -133,12 +133,12 @@ form > button[type=submit]{
 }
 
 .error{
-    font-size: 0.75em;
+    font-size: .75em;
     color: #ECECEC;
     margin-top: 5px;
     background-color: #FF6464;
-    padding: 0.25em;
-    border-radius: 0.3125em;
+    padding: .25em;
+    border-radius: .3125em;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
     display: flex;
@@ -151,13 +151,13 @@ form > button[type=submit]{
 }
 
 .info{
-    font-size: 0.75em;
+    font-size: .75em;
     font-weight: 600;
-    margin: 0;
+    margin-top: .25em;
+    margin-left: .25em;
     padding: 0;
     color: #5D5D5D;
 }
-
 
 /* ///////////////////////////////////*/
 
